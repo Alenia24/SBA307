@@ -22,7 +22,7 @@
       class="navbar navbar-expand-lg"
     >
       <div class="container-fluid">
-        <a style="color: white; font-weight: bold;" class="navbar-brand" href="#"
+        <a style="color: white; font-weight: bold" class="navbar-brand" href="#"
           >💎 Jadora Jewels</a
         >
 
@@ -35,7 +35,7 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon navbar-dark"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div style="margin-left: auto" class="navbar-nav">
@@ -52,17 +52,45 @@
             <a style="color: white" class="nav-link" href="userPage.html"
               >Sale</a
             >
-            <a style="color: white" class="nav-link" href="userPage.html"
-              >User Login</a
-            >
-            <a style="color: white" class="nav-link" href="adminPage.html"
-              >Admin Login</a
-            >
+            <div class=" btn-group dropstart">
+              <button
+                style="border: none; background-color: transparent"
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Login
+              </button>
+              <ul style="background-color: #4165b3;" class="dropdown-menu">
+                <li>
+                  <a style="text-decoration: none" href="userPage.html"
+                    ><button
+                      style="color: #14213d"
+                      class="dropdown-item"
+                      type="button"
+                    >
+                      User Login
+                    </button></a
+                  >
+                </li>
+                <li>
+                  <a style="text-decoration: none" href="adminPage.html"
+                    ><button
+                      style="color: #14213d"
+                      class="dropdown-item"
+                      type="button"
+                    >
+                      Admin Login
+                    </button></a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </nav>
-
     <div
       id="carouselExampleSlidesOnly"
       class="carousel slide"

@@ -1,16 +1,19 @@
 body {
-  margin: 80px auto;
+  margin: 80px auto 0 auto;
   font-family: "Inter", serif;
 }
 
 .main {
-    margin: 0 40px;
+  margin: 0 40px;
 }
 
 .nav-item a {
-    color: white;
+  color: white;
 }
 
+.nav-item a:hover {
+  color: #3b5da5;
+}
 .header-container,
 .product-inventory,
 .product-table,
@@ -21,6 +24,7 @@ footer {
 .header-container {
   display: flex;
   justify-content: space-between;
+  margin: 20px 0;
 }
 
 .btn {
@@ -31,6 +35,8 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 10px;
+  height: 40px;
+  width: 120px;
 }
 
 .btn:hover {
@@ -46,6 +52,7 @@ footer {
 .product-inventory {
   display: flex;
   justify-content: space-between;
+   margin: 10px 0;
 }
 
 .total-products {
@@ -75,6 +82,11 @@ footer {
 }
 
 .pagination a {
-    color: #14213d;
-    border: none;
+  color: #14213d;
+  border: none;
+}
+
+.pagination a:hover {
+  font-size: 20px;
+  transition: all ease-in-out;
 }
